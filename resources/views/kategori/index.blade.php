@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">Kategori</div>
                 <div class="card-body">
-                <a href="{{route('kategori.create')}}" class="btn btn-success btn-sm" style="margin-bottom:20px;">Tambah Kategori</a>
+                <a href="{{route('kategori.create')}}" class="btn btn-primary btn-sm" style="margin-bottom:20px;">Tambah Kategori</a>
                 
                 <table class="table table-bordered" id="users-table">
                 
