@@ -17,7 +17,7 @@
 
                             <div class="form-group row mb-0">
                                     <div class="col-md-6 offset-md-2">
-                                        <button type="submit" class="btn btn-success">Tambah data</button>
+                                        <button type="submit" class="btn btn-danger">Tambah data</button>
                                     </div>
                           </div>
                       </div>
