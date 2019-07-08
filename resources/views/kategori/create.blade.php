@@ -8,6 +8,8 @@
                   <div class="card-header">Tambah Katgori</div>
                       <div class="card-body">
 
+                     {!! Form::open(['route'=>'kategori.store','method'=>'POST'])!!}
+
                             <div class="form-group row">
                                     <label class="col-md-2 col-form-label text-md-right">Nama kategori</label>
                                     <div class="col-md-6">
