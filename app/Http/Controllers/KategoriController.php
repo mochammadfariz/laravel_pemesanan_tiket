@@ -36,7 +36,7 @@ class KategoriController extends Controller
      */
     public function store(Request $request)
     {
-        echo 'gw kezel';
+        echo '<h1>Testing Tambah Data</h1>';
     }
 
     /**
