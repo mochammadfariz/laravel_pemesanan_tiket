@@ -7,7 +7,7 @@
             <div class="card">
                   <div class="card-header">Tambah Katgori</div>
                       <div class="card-body">
-
+                        @include('validasi');
                      {!! Form::open(['route'=>'kategori.store','method'=>'POST'])!!}
 
                             <div class="form-group row">
