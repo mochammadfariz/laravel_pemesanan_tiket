@@ -36,7 +36,8 @@ class KategoriController extends Controller
      */
     public function store(Request $request)
     {
-        echo '<h1>Testing Tambah Data</h1>';
+       $kategori = Kategori::create($request->all());
+       return redirect()->route('kategori.index');
     }
 
     /**
