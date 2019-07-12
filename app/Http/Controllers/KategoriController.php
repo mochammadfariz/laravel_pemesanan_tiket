@@ -40,7 +40,7 @@ class KategoriController extends Controller
             'nama_kategori'=>'min:4|required',
         ]);
        $kategori = Kategori::create($request->all());
-       return redirect()->route('kategori.index');
+       return redirect()->route('kategori.index')->with('pesan','Data Berhasil di tambahkan');
     }
 
     /**
