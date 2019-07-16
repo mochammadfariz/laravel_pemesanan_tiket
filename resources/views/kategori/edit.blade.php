@@ -19,7 +19,7 @@
 
                             <div class="form-group row mb-0">
                                     <div class="col-md-6 offset-md-2">
-                                        <button type="submit" class="btn btn-primary">Tambah data</button>
+                                        <button type="submit" class="btn btn-primary">Update data</button>
                                         <a href="{{route('kategori.index') }}" class="btn btn-primary">Kembali</a>
                                     </div>
                           </div>
