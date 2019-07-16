@@ -5,10 +5,10 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                  <div class="card-header">Tambah Katgori</div>
+                  <div class="card-header">Edit Kategori</div>
                       <div class="card-body">
-                        @include('validasi');
-                     {!! Form::open(['route'=>'kategori.store','method'=>'POST'])!!}
+                        @include('validasi')
+                     {!! Form::model($kategori,['route'=>['kategori.update',$kategori->id],'method'=>'PUT'])!!}
 
                             <div class="form-group row">
                                     <label class="col-md-2 col-form-label text-md-right">Nama kategori</label>

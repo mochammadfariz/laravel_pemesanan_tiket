@@ -63,7 +63,7 @@ class KategoriController extends Controller
     public function edit($id)
     {
         $kategori=Kategori::findOrFail($id);
-        return view('kategori.edit');
+        return view('kategori.edit',compact('kategori'));
     }
 
     /**
