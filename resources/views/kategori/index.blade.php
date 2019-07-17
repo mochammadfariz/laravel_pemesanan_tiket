@@ -28,7 +28,9 @@
                             <td><?= $no ?></td>
                             <td>{{$item->nama_kategori}}</td>
                             <td><a href="{{route('kategori.edit',$item->id)}}" class="btn btn-primary btn-sm" >Edit</a></td>
-                            <td><a href="{{route('kategori.destroy',$item->id)}}" class="btn btn-danger btn-sm" >Delete</a></td>
+                            {!!Form::open(['route'=>['kategori.destroy',$item->id],'method'=>'DELETE']) !!}
+                            <td><button type="submit" name="submit" class="btn btn-danger">Hapus</button></td>
+                            {!! Form::close() !!}
                         </tr>
                         <?php $no++; ?>
                     @endforeach
